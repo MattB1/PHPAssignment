@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>COSC260 Assignment 3</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="COSC260 Assignmnet 3">
+    <meta name="keywords" content="COSC260, Web Programming, Assignment 3, UNE">
+    <meta name="author" content="James Bishop">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/client.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <ul id="tests">
+            <li id="test_post">Only excepts POST requests</li>
+            <li id="test_post_body">Tests for POST body</li>
+            <li id="test_name">Mandatory 'name' field present</li>
+            <li id="test_name_len">Check 'name' is 2-100 characters</li>
+            <li id="test_name_chars">Check 'name' only contains allowed characters</li>
+            <li id="test_age">Mandatory 'age' field present</li>
+            <li id="test_age_int">Check 'age' is an integer</li>
+            <li id="test_age_range">Check 'age' is 13-130</li>
+            <li id="test_email">Mandatory 'email' field present</li>
+            <li id="test_email_regex">Check 'email' matches regex</li>
+            <li id="test_phone">Allows valid requests that do not contain 'phone'</li>
+            <li id="test_phone_len">If 'phone' set, check it is exactly 10 digits</li>
+            <li id="test_phone_int">If 'phone' set, check it is an integer.</li>
+            <li id="test_phone_start">If 'phone' set, check it starts with "04"</li>
+            <li id="test_success">Successfully returns 'user_id' for valid request</li>
+        </ul>
+        <button type="button">Test Service</button>
+        <span id="user_id"></span>
+    </div>
+</body>
+</html>

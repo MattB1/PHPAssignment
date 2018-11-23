@@ -1,0 +1,72 @@
+/* body font settings */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #000;
+}
+
+h2 {
+    font-size: 110%;
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0 auto; 
+    margin-top: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ccc;
+}
+
+#tests {
+    background-color: #ccc;
+}
+
+ul li {
+    margin: 5px 0 5px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    border-collapse: collapse;
+    padding: 5px;
+    display: block;
+    background-color: #f3f3f3; 
+}
+
+button {
+    margin: 10px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    background-color: #f3f3f3;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+#user_id {
+    margin: 10px 0 10px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+    font-weight: bold;
+}
+
+/* class for test states */
+.error {
+    background-color: #ff0000;
+}
+
+.success {
+    background-color: #00b300;
+}
+
+.default {
+    background-color: #f3f3f3; 
+}
